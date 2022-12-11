@@ -1,0 +1,139 @@
+
+
+
+header{
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 950px;
+    height:225px;
+   
+}
+
+.searchbar input{
+    top: 30px;
+    left:45px;
+    position: absolute;
+    height: 35px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(219, 229, 243);
+    
+}
+#searchimg {
+    position: absolute;
+    top: 33px;
+}
+
+#body {
+    position: absolute;
+    background-color: lightgray;
+    width:950px;
+    height:403px;
+    bottom: 0px;
+    right:0px;
+    
+}
+
+#acc1 {
+    position: absolute;
+    top:25px;
+    right:220px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 193);
+}
+
+#noti {
+    position: absolute;
+    top:33px;
+    right:300px;
+}
+
+#hedtext {
+    position:absolute;
+    right:33px;
+    top:18px;
+}
+
+#acc2{
+    position: absolute;
+    top:125px;
+    left:45px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 193);
+    height: 70px;
+    width: 70px;
+
+}
+
+#hello{
+    color: lightslategray;
+    position: absolute;
+    top:125px;
+    left:145px;
+
+}
+
+
+#username{
+    position:absolute;
+    top:135px;
+    left:145px;
+
+}
+
+#new {
+    font-size: 15.6px;
+    width: 110px;
+    height: 45px;
+    background-color: rgb(105, 209, 243);
+    color: white;
+    font-weight: 700;
+    padding: 10px 23px 9px 23px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+    position: absolute;
+    top:150px;
+    right:290px;
+}
+
+#upload{
+    font-size: 15.6px;
+    width: 110px;
+    height: 45px;
+    background-color:rgb(105, 209, 243);
+    color: white;
+    font-weight: 700;
+    padding: 10px 23px 9px 23px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+    position:absolute;
+    top:150px;
+    right:170px;
+}
+
+#share{
+    font-size: 15.9px;
+    width: 110px;
+    height: 45px;
+    background-color: rgb(105, 209, 243);
+    color: white;
+    font-weight: 700;
+    padding: 10px 23px 9px 23px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+    position: absolute;
+    top:150px;
+    right:50px;
+
+}
