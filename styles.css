@@ -31,8 +31,8 @@ header{
     position: absolute;
     background-color: lightgray;
     width:950px;
-    height:403px;
-    bottom: 0px;
+    height:575px;
+    bottom: -172px;
     right:0px;
     
 }
@@ -136,4 +136,26 @@ header{
     top:150px;
     right:50px;
 
+}
+
+
+#sidebar {
+    background-color:rgb(96, 195, 228);
+    position:absolute;
+    width: 330px;
+    height: 800px;
+    left: 0px;
+    top:0px;
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 80px 80px 
+}
+
+.sidetext {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.border {
+    border: 15px solid rgb(96, 195, 228);;
 }
