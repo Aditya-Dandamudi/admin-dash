@@ -2,13 +2,14 @@
 
 
 header{
-    background-color: rgb(248, 248, 248);
+    background-color: white;
     position: absolute;
     right: 0;
     top: 0;
     width: 950px;
     height:225px;
-   
+    z-index: 2;
+    box-shadow: 1px 1px rgb(235, 235, 235);
 }
 
 .searchbar input{
@@ -29,10 +30,10 @@ header{
 
 #body {
     position: absolute;
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
     width:950px;
-    height:575px;
-    bottom: -172px;
+    height:774px;
+    bottom: -372px;
     right:0px;
     
 }
@@ -143,12 +144,12 @@ header{
     background-color:rgb(96, 195, 228);
     position:absolute;
     width: 330px;
-    height: 800px;
+    height: 1000px;
     left: 0px;
     top:0px;
     display: grid;
-    grid-template-columns: 80px 80px;
-    grid-template-rows: 80px 80px 
+    grid-template-columns: repeat(20,80px);
+    grid-template-rows: repeat(20,80px); 
 }
 
 .sidetext {
@@ -158,4 +159,82 @@ header{
 
 .border {
     border: 15px solid rgb(96, 195, 228);;
+}
+
+#start1 {
+    grid-row-start: 3;
+    grid-column-start:1 ;
+   
+ 
+}
+#start2 {
+    grid-row-start: 3;
+    grid-column-start:2 ;
+}
+ 
+#start3{
+    grid-row-start: 4;
+}
+ 
+#start4{
+    grid-row-start: 4;
+    grid-column-start:2 ;
+}
+ 
+#start5{
+    grid-row-start: 5;
+    grid-column-start:1 ;
+}
+ 
+#start6{
+    grid-row-start: 5;
+    grid-column-start:2 ;
+}
+#start7{
+    grid-row-start: 6;
+    grid-column-start:1 ;
+}
+#start8{
+    grid-row-start: 6;
+    grid-column-start:2 ;
+}
+#start9{
+    grid-row-start: 7;
+    grid-column-start:1 ;
+}
+#start10{
+    grid-row-start: 7;
+    grid-column-start:2 ;
+}
+#start11{
+    grid-row-start: 8;
+    grid-column-start:1 ;
+}
+#start12{
+    grid-row-start: 8;
+    grid-column-start:2 ;
+}
+#start13{
+    grid-row-start: 10;
+    grid-column-start:1 ;
+}
+#start14{
+    grid-row-start: 10;
+    grid-column-start:2 ;
+}
+#start15{
+    grid-row-start: 11;
+    grid-column-start:1 ;
+}
+#start16{
+    grid-row-start: 11;
+    grid-column-start:2 ;
+}
+#start17{
+    grid-row-start: 12;
+    grid-column-start:1 ;
+}
+#start18{
+    grid-row-start: 12;
+    grid-column-start:2 ;
 }
