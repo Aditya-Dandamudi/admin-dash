@@ -285,3 +285,49 @@ p{
     opacity: 65%;
 }
 
+#Announcements {
+    position:absolute;
+    right:10px;
+    width:250px;
+    height: 340px;
+    background-color: white;
+    border: 3px solid rgb(231, 231, 231);
+    border-radius: 15px;
+    box-shadow: 4px 4px rgb(207, 207, 207);
+ 
+}
+ 
+#latfill {
+    font-size: 12px;
+    padding-left: 10px;
+}
+ 
+H3 {
+    font-family: sans-serif;
+    padding-left:10px;
+}
+ 
+#Trending {
+    position:absolute;
+    right:10px;
+    width:250px;
+    height: 340px;
+    background-color: white;
+    border: 3px solid rgb(231, 231, 231);
+    border-radius: 15px;
+    box-shadow: 4px 4px rgb(207, 207, 207);
+    bottom: 95px;
+    display:grid;
+    grid-template-columns:40px 100px ;
+    grid-template-rows:repeat(8,60px) ;
+    row-gap: 20px;
+    column-gap: 30px;
+   
+}
+ 
+#trends {
+    background-color: rgb(0, 0, 0);
+ 
+}
+ 
+
